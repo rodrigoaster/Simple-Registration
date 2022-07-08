@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+}
+
+.input-area .input-solo {
+    padding:50px 10px;
+}
+
+.input-solo input {
+    padding: 20px;
+}
+
+.input-solo input:focus {
+    outline: 0;
+}
+
+.area-2 {
+    width: 100%;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.perfil-area {
+    display: flex;
+    justify-content: right;
+    margin-left: 450px;
+    margin-top: -150px;
+}
+
+.img-area {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.img-area img {
+    border-radius: 20px;
+}
+
+.desc-area {
+    padding: 0px 30px 20px 0px;
+    width: 100%;
+}
+
+.desc-area textarea {
+    padding: 5px;
+}
+
+.list-genrer {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.list-genrer input[type=radio] {
+    margin: 10px 0px;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.btn-area button {
+    margin-right: 90px;
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.btn-area button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: all ease 0.3s;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
